@@ -1,9 +1,21 @@
 #Write a Python program to get the key, value and item in a dictionary.
 
-# Input dictionary
-dict_num = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+# Define a dictionary
+sample_dict = {
+    'name': 'Snehal',
+    'age': 26,
+    'occupation': 'Data Analyst',
+    'location': 'India'
+}
 
-# Printing the keys and values
-print("key", " value")
-for key, value in dict_num.items():
-    print(key, "    ", value)
+# Iterate through the dictionary to get key, value, and item
+for key, value in sample_dict.items():
+    print(f"Key: {key}, Value: {value}, Item: ({key}, {value})")
+    
+
+#ANS:
+
+Key: name, Value: Snehal, Item: (name, Snehal)
+Key: age, Value: 26, Item: (age, 26)
+Key: occupation, Value: Data Analyst, Item: (occupation, Data Analyst)
+Key: location, Value: India, Item: (location, India)
